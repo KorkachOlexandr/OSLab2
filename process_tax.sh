@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Script to process tax column in CSV file
-# Converts valid decimals (0-1 with max 2 decimal places) to percentages
-# Replaces non-numeric values with N/A
-# Replaces numeric but invalid values with invalid_value
-
 INPUT_FILE="${1:-data.csv}"
 OUTPUT_FILE="${2:-processed.csv}"
 
@@ -17,10 +12,8 @@ echo "Processing tax column in $INPUT_FILE..."
 echo "Output will be saved to $OUTPUT_FILE"
 echo ""
 
-# Save header
 head -n 1 "$INPUT_FILE" > "$OUTPUT_FILE"
 
-# Process data rows using awk
 tail -n +2 "$INPUT_FILE" | awk -F',' 'BEGIN {
     OFS = ","
     valid_count = 0
