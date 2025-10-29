@@ -1,0 +1,31 @@
+id,name,tax,amount,city
+1,John Doe,0.1,1000,Kyiv
+2,Jane Smith,0.15,2000,Lviv
+3,Bob Johnson,0.255,3000,Odesa
+4,Alice Brown,invalid,4000,Kharkiv
+5,Charlie Wilson,0.99,5000,Dnipro
+6,David Lee,-0.1,6000,Zaporizhzhia
+7,Eve Davis,1.5,7000,Kyiv
+8,Frank Miller,0.0,8000,Lviv
+9,Grace Taylor,,9000,Odesa
+10,Henry Anderson,0.555,10000,Kharkiv
+11,Irene Thomas,text,11000,Dnipro
+12,Jack White,0.9999,12000,Kyiv
+13,Karen Harris,0.2,13000,Lviv
+14,Larry Martin,0.33,14000,Odesa
+15,Mary Clark,1.0,15000,Kharkiv
+16,Nathan Lewis,0.5,16000,Dnipro
+17,Olivia Walker,2,17000,Kyiv
+18,Paul Hall,0.123,18000,Lviv
+19,Quinn Allen,0.00,19000,Odesa
+20,Rachel Young,N/A,20000,Kharkiv
+21,Steve King,0.75,21000,Dnipro
+22,Tina Wright,0.999,22000,Kyiv
+23,Uma Lopez,0.,23000,Lviv
+24,Victor Hill,.,24000,Odesa
+25,Wendy Scott,1e-1,25000,Kharkiv
+26,Xavier Green,0.1.1,26000,Dnipro
+27,Yvonne Adams,00.15,27000,Kyiv
+28,Zachary Baker,+0.2,28000,Lviv
+29,Amy Nelson, 0.3,29000,Odesa
+30,Brian Carter,0.4 ,30000,Kharkiv
